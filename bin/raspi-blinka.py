@@ -9,7 +9,7 @@ import os
 import sys
 
 try:
-    from adafruit_shell import Shell
+    import adafruit_shell as Shell
 except ImportError:
     raise RuntimeError("The library 'adafruit_shell' was not found. To install, try typing: sudo pip3 install adafruit-python-shell")
 
